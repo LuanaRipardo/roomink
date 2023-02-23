@@ -1,0 +1,199 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input, label {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    width: 100%; /* definindo a largura dos inputs */
+}
+
+input[type="number"], input[type="text"] {
+    border-radius: 25px;
+    border: 2px solid purple;
+    padding: 10px;
+}
+
+body {
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0, #6d2b90);
+}
+
+.card {
+    background-color: black!important;
+    box-shadow: 10px 5px 10px rgba(128, 0, 128, 0.3);
+}
+
+.calc-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+ .calc-btn {
+    background: purple;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white!important;
+}
+
+.title-initial {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white!important;
+    font-size: 76px;
+
+}
+
+#result-container {
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    overflow: auto;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .result-card {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .result-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .result-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+  .result-number {
+    color: #a86bd6;
+    font-weight: bold;
+  }
+  .result-highlight {
+    color: #00bfff;
+  }
+
+.card-body-left-align {
+    text-align: left;
+  }
+
+  .card-body-purple-shadow {
+    box-shadow: 10px 0 15px 10px purple;
+  }
+
+  .result-container-wrapper {
+    margin-top: 20px;
+  }
+
+  .title-container {
+    position: relative;
+}
+
+.user-button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    top: 20%;
+    left: 86%;
+    margin-right: 10px;
+
+    font-family: Montserrat, sans-serif;
+  }
+
+  .user-button .username {
+    margin-right: 10px;
+  }
+
+  .user-button .dropdown {
+    position: relative;
+    top: 100%;
+    left: 15%;
+    min-width: 120px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+  }
+
+  .user-button .dropdown.ativo {
+    display: block;
+  }
+
+  .dropdown-item {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .dropdown-item:hover {
+    background-color: #f2f2f2;
+  }
+
+
+  .logout-title {
+    font-size: 4rem;
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
